@@ -59,7 +59,7 @@ export default function Home(): ReactElement {
           <p>
             A derivative of  <a href="https://www.lootproject.com" target="_blank" rel="noreferrer">Loot project</a>.
             <br /> Emojis are more abstract but more expressive.
-            <br /> Find an emLoot to represent your lifestyle in the upcoming metaverse.
+            <br /> Get an emLoot to tell your story in the upcoming metaverse.
           </p>
         </div>
 
