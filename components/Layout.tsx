@@ -138,11 +138,11 @@ function Footer(): ReactElement {
       <p>
         {/* This website will{" "} */}
         <a
-          href="https://github.com/EmojiLoot"
+          href="hhttps://github.com/EmojiLoot/contracts"
           target="_blank"
           rel="noopener noreferrer"
         >
-          open-source
+          Open Source
         </a>
         .
       </p>

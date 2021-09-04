@@ -17,6 +17,10 @@ export default function Home(): ReactElement {
       url: "https://twitter.com/emloot",
     },
     {
+      name: "Discord",
+      url: "https://discord.gg/5w6zcJ4v",
+    },
+    {
       name: "Contract",
       url: "https://etherscan.io/address/0x4335541d17f6344c29f2412e520ed71639150ead",
     },
@@ -57,14 +61,14 @@ export default function Home(): ReactElement {
 
           {/* CTA Description */}
           <p>
-            A derivative of <Link href="https://www.lootproject.com">Loot project</Link>.
+            A derivative of  <a href="https://www.lootproject.com" target="_blank">Loot project</a>.
             <br /> Emojis are more abstract but more expressive.
             <br /> Find an emLoot to represent your lifestyle in the upcoming metaverse.
           </p>
         </div>
 
-        {/* Rendering sample loot bags */}
-        {/* <div className={styles.home__feature}>
+        {/* Rendering sample loot bags
+        <div className={styles.home__feature}>
           <span>Example Bags:</span>
           {getRandomThreeBags().map(({ id, attributes }, i) => (
             // For each loot bag, render item and link to OpenSea
