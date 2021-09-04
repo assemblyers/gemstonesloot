@@ -101,7 +101,7 @@ function Header() {
       </div>
 
       {/* Navigation */}
-      <div className={styles.header__links}>
+      {/* <div className={styles.header__links}>
         <ul>
           {links.map(({ name, path }, i) => {
             // For each link, render link
@@ -123,7 +123,7 @@ function Header() {
             );
           })}
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
