@@ -17,7 +17,7 @@ export default function Home(): ReactElement {
     },
     {
       name: "Contract",
-      url: "https://etherscan.io/address/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
+      url: "https://etherscan.io/address/0x4335541d17f6344c29f2412e520ed71639150ead",
     },
   ];
 
