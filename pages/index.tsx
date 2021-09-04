@@ -2,6 +2,7 @@
 import Layout from "@components/Layout"; // Layout wrapper
 import { defaultBags } from "@utils/constants"; // Bags to render
 import styles from "@styles/pages/Home.module.scss"; // Styles
+import Link from "next/dist/client/link";
 
 // Types
 import type { ReactElement } from "react";
@@ -11,10 +12,10 @@ export default function Home(): ReactElement {
   const quicklinks: Record<string, string>[] = [
     { name: "OpenSea", url: "https://opensea.io/collection/emloot" },
     // { name: "Synthetic Loot", url: "/synthloot" },
-    {
-      name: "Twitter",
-      url: "https://twitter.com/emloot",
-    },
+    // {
+    //   name: "Twitter",
+    //   url: "https://twitter.com/emloot",
+    // },
     {
       name: "Contract",
       url: "https://etherscan.io/address/0x4335541d17f6344c29f2412e520ed71639150ead",
@@ -52,10 +53,9 @@ export default function Home(): ReactElement {
 
           {/* CTA Description */}
           <p>
-            EmojiLoot is randomized adventurer gear generated and stored on chain.
-            <br /> Stats, images, and other functionality are intentionally
-            omitted for others to interpret. <br /> Feel free to use Loot in any
-            way you want.
+            A derivative of <Link href="https://www.lootproject.com">Loot project</Link>.
+            <br /> Emojis are more abstract but more expressive.
+            <br /> Find an emLoot to represent your lifestyle in the upcoming metaverse.
           </p>
         </div>
 
