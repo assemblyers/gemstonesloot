@@ -61,7 +61,7 @@ export default function Home(): ReactElement {
 
           {/* CTA Description */}
           <p>
-            A derivative of  <a href="https://www.lootproject.com" target="_blank">Loot project</a>.
+            A derivative of  <a href="https://www.lootproject.com" target="_blank" rel="noreferrer">Loot project</a>.
             <br /> Emojis are more abstract but more expressive.
             <br /> Find an emLoot to represent your lifestyle in the upcoming metaverse.
           </p>
