@@ -12,13 +12,17 @@ export default function Home(): ReactElement {
   const quicklinks: Record<string, string>[] = [
     { name: "OpenSea", url: "https://opensea.io/collection/emloot" },
     // { name: "Synthetic Loot", url: "/synthloot" },
-    // {
-    //   name: "Twitter",
-    //   url: "https://twitter.com/emloot",
-    // },
+    {
+      name: "Twitter",
+      url: "https://twitter.com/emloot",
+    },
     {
       name: "Contract",
       url: "https://etherscan.io/address/0x4335541d17f6344c29f2412e520ed71639150ead",
+    },
+    {
+      name: "Github",
+      url: "https://github.com/EmojiLoot/contracts",
     },
   ];
 
