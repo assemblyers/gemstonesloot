@@ -44,23 +44,23 @@ function Head(): ReactElement {
 
       {/* OG + Faceook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.lootproject.com/" />
+      <meta property="og:url" content="https://www.emloot.xyz/" />
       <meta property="og:title" content="Loot" />
       <meta
         property="og:description"
         content="Loot is randomized adventurer gear generated and stored on chain."
       />
-      <meta property="og:image" content="https://lootproject.com/meta.png" />
+      <meta property="og:image" content="https://emloot.xyz/meta.png" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.lootproject.com/" />
+      <meta property="twitter:url" content="https://www.emloot.xyz/" />
       <meta property="twitter:title" content="Loot" />
       <meta
         property="twitter:description"
         content="Loot is randomized adventurer gear generated and stored on chain."
       />
-      <meta property="twitter:image" content="https://lootproject.com/meta.png" />
+      <meta property="twitter:image" content="https://emloot.xyz/meta.png" />
 
       {/* Font */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -136,7 +136,7 @@ function Footer(): ReactElement {
   return (
     <div className={styles.footer}>
       <p>
-        This website will{" "}
+        {/* This website will{" "} */}
         <a
           href="https://github.com/EmojiLoot"
           target="_blank"

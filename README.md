@@ -1,6 +1,6 @@
 # Loot
 
-Community-operated [website](https://www.lootproject.com/) for the Loot project.
+Community-operated [website](https://www.emloot.xyz/) for the Loot project.
 
 ## Contribute
 
