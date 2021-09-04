@@ -39,7 +39,7 @@ function Head(): ReactElement {
       <meta name="title" content="emLoot" />
       <meta
         name="description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="Emoji Loot uses emoji to describe an abstract person on chain."
       />
 
       {/* OG + Faceook */}
@@ -48,7 +48,7 @@ function Head(): ReactElement {
       <meta property="og:title" content="Loot" />
       <meta
         property="og:description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="Emoji Loot uses emoji to describe an abstract person on chain."
       />
       <meta property="og:image" content="https://emloot.xyz/meta.png" />
 
@@ -58,7 +58,7 @@ function Head(): ReactElement {
       <meta property="twitter:title" content="Loot" />
       <meta
         property="twitter:description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="Emoji Loot uses emoji to describe an abstract person on chain."
       />
       <meta property="twitter:image" content="https://emloot.xyz/meta.png" />
 
