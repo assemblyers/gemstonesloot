@@ -22,7 +22,7 @@ export default function Layout({
       {/* Page content */}
       <div className={styles.content}>{children}</div>
       {/* Bottom footer */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
@@ -35,11 +35,11 @@ function Head(): ReactElement {
   return (
     <HTMLHead>
       {/* Primary Meta Tags */}
-      <title>EmojiLoot</title>
-      <meta name="title" content="emLoot" />
+      <title>Gemstones Loot</title>
+      <meta name="title" content="Gemstones Loot" />
       <meta
         name="description"
-        content="Emoji Loot uses emoji to describe an abstract person on chain."
+        content="Gemstones Loot"
       />
 
       {/* OG + Faceook */}
@@ -48,7 +48,7 @@ function Head(): ReactElement {
       <meta property="og:title" content="Loot" />
       <meta
         property="og:description"
-        content="Emoji Loot uses emoji to describe an abstract person on chain."
+        content="Gemstones Loot"
       />
       <meta property="og:image" content="https://emloot.xyz/meta.png" />
 
@@ -58,7 +58,7 @@ function Head(): ReactElement {
       <meta property="twitter:title" content="Loot" />
       <meta
         property="twitter:description"
-        content="Emoji Loot uses emoji to describe an abstract person on chain."
+        content="Gemstones Loot"
       />
       <meta property="twitter:image" content="https://emloot.xyz/meta.png" />
 
@@ -96,7 +96,7 @@ function Header() {
       {/* Main logo */}
       <div className={styles.header__logo}>
         <Link href="/">
-          <a>emLoot</a>
+          <a>Gemstones Loot</a>
         </Link>
       </div>
 
@@ -138,7 +138,7 @@ function Footer(): ReactElement {
       <p>
         {/* This website will{" "} */}
         <a
-          href="hhttps://github.com/EmojiLoot/contracts"
+          href="https://github.com/EmojiLoot/contracts"
           target="_blank"
           rel="noopener noreferrer"
         >

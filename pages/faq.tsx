@@ -14,7 +14,7 @@ export default function FAQ(): ReactElement {
         <h2>Frequently Asked Questions</h2>
 
         {/* What is emLoot ? */}
-        <div className={styles.faq__item}>
+        {/* <div className={styles.faq__item}>
           <h3>What is emLoot?</h3>
           <p>
             emLoot is a collection of 8,000 unique NFT tokens that use emojis to represent your lifestyle in the metaverse.
@@ -25,13 +25,13 @@ export default function FAQ(): ReactElement {
             anyone and #7778 to #8000 are currently reserved for the contract
             deployer.
           </p>
-        </div>
+        </div> */}
 
         {/* Why is loot special? */}
         <div className={styles.faq__item}>
-          <h3>How to get emLoot?</h3>
+          <h3>How to get Gemstones Loot?</h3>
           <p>
-            You can mint emLoot straight out of the <Link href="https://etherscan.io/address/0x4335541d17f6344c29f2412e520ed71639150ead#writeContract">contract on Etherscan</Link>.
+            You can mint Gemstones Loot from Etherscan: <Link href="https://etherscan.io/address/0x4335541d17f6344c29f2412e520ed71639150ead#writeContract">contract on Etherscan</Link>.
           </p>
           <p>
             Just go to [Write Contract] tab on ehterscan and find [claim] method.

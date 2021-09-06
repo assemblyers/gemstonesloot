@@ -10,7 +10,7 @@
   }
 
   p {
-    color: #8e8e8e;
+    color: #a4a4a4;
     font-size: 22px;
     margin: 0px;
   }
@@ -42,7 +42,7 @@
 
   > span {
     display: block;
-    color: #8e8e8e;
+    color: #a4a4a4;
     font-size: 18px;
     padding: 10px 0px;
   }
@@ -62,12 +62,12 @@
 .home__bag_attributes {
   background-color: black;
   width: 400px;
-  height: 400px;
+  height: 330px;
   position: relative;
 
   > span {
     position: absolute;
-    right: 10px;
+    left: 10px;
     top: 10px;
   }
 
